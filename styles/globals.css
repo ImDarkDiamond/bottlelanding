@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
@@ -6,11 +10,32 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+@font-face {
+	font-family: "Whitney";
+	src: url("../public/whitneybook.otf");
 }
 
-* {
-  box-sizing: border-box;
+@font-face {
+	font-family: "Whitney Medium";
+	src: url("../public/whitneymedium.otf");
+}
+
+@font-face {
+	font-family: "Whitney SemiBold";
+	src: url("../public/whitneysemibold.otf");
+}
+
+@font-face {
+	font-family: "Whitney Bold";
+	src: url("../public/whitneybold.otf");
+}
+
+@font-face {
+	font-family: "Montserrat Black";
+	src: url("../public/Montserrat-Black.ttf");
+}
+
+@font-face {
+	font-family: "Montserrat";
+	src: url("../public/Montserrat-Bold.ttf");
 }
