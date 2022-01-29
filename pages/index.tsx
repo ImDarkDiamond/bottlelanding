@@ -8,7 +8,8 @@ const Home = () => {
 
 	const buttonStyles = classNames(
 		"bg-black font-['Whitney'] font-white p-4 rounded shadow-2xl text-xl",
-		"transition-all duration-150 hover:shadow-sm hover:-translate-y-1"
+		"transition-all duration-150 hover:shadow-sm hover:-translate-y-1",
+		"flex justify-center items-center"
 	)
 
 	return (
@@ -18,12 +19,12 @@ const Home = () => {
 				<p className="text-center font-['Whitney'] text-3xl mt-8 max-w-xs sm:max-w-lg">A niche unban system built for Discord.</p>
 
 				<div className="mt-10 grid grid-cols-1 sm:grid-cols-2 max-w-xs mx-auto gap-5">
-					<button className={buttonStyles}>
+					<a href="https://discord.com/invite/DxjyWk8kWB" className={buttonStyles}>
 						Discord
-					</button>
-					<button className={buttonStyles}>
+					</a>
+					<a href="https://github.com/ibx34/bottle" className={buttonStyles}>
 						Github
-					</button>
+					</a>
 				</div>
 			</div>
 		</div>
